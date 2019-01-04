@@ -1,1 +1,1 @@
-Basic gulp template to to quickstart website development with PUG + SASS
+Basic gulp template to quick start website development with PUG + SASS
