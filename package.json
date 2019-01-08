@@ -31,6 +31,6 @@
     "gulp-rename": "^1.4.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.2",
-    "gulp-terser": "^1.1.7"
+    "gulp-uglify": "^3.0.1"
   }
 }
