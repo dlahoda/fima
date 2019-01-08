@@ -16,7 +16,9 @@
     "url": "https://github.com/dlahoda/gulp-template/issues"
   },
   "homepage": "https://github.com/dlahoda/gulp-template#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
