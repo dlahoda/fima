@@ -4,6 +4,7 @@ const gulp          = require('gulp'),
       autoprefixer  = require('gulp-autoprefixer'),
       concat        = require('gulp-concat'),
       rename        = require('gulp-rename'),
+      rigger        = require('gulp-rigger'),
       del           = require('del'),
       browserSync   = require('browser-sync');
 
@@ -36,6 +37,7 @@ gulp.task('styles:compile', function(){
 
 gulp.task('js:compile', function(){
   return gulp.src('src/js/main.js')
+          .pipe(rigger())
           .pipe(gulp.dest('build/js'));
 });
 
