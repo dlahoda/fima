@@ -1,0 +1,20 @@
+.carousel {
+  &-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+  &-indicators {
+    margin: 2.5rem 15%;
+    li {
+      font-size: calculateRem(15px);
+      text-indent: 0;
+      border-top: none;
+      border-bottom: 3px solid $primary;
+      background-color: transparent;
+      color: $primary;
+      height: auto;
+    }
+  }
+}
