@@ -1,1 +1,5 @@
-$fontSize-main: 18px;
+$font-size-main: 18px;
+
+:root, html {
+  font-size: $font-size-main;
+}
