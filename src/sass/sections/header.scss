@@ -1,0 +1,15 @@
+#navbarNav {
+  font-size: calculateRem(12px);
+  letter-spacing: 2.4px;
+}
+
+.logo {
+  &__top {
+    font-size: calculateRem(62px);
+  }
+  &__bottom {
+    font-size: calculateRem(12px);
+    letter-spacing: 3.4px;
+    margin-top: -11px;
+  }
+}
