@@ -1,12 +1,10 @@
-// Global styles
-@import "./global.scss";
-
 // Bootstrap customization
 @import "bootstrap-customization.scss";
 
 // Bootstrap modules
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
 @import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/carousel";
@@ -20,6 +18,9 @@
 // Font awesome
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Global styles
+@import "./global.scss";
 
 // Styles
 @import "sections/header";

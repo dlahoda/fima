@@ -1,4 +1,13 @@
-#navbarNav {
+.navbar {
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.nav-item {
   font-size: calculateRem(12px);
   letter-spacing: 2.4px;
 }

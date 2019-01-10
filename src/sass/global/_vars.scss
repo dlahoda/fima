@@ -2,4 +2,8 @@ $font-size-main: 18px;
 
 :root {
   font-size: $font-size-main;
+
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-main - 2px;
+  }
 }
