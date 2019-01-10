@@ -22,3 +22,26 @@
     }
   }
 }
+
+.single-product {
+  @media screen and (max-width: 1500px) {
+    &__image {
+      width: 90%;
+    } 
+  }
+  @media screen and (max-width: 1400px) {
+    &__image {
+      width: 80%;
+    } 
+  }
+  @media screen and (max-width: 1300px) {
+    &__image {
+      width: 70%;
+    } 
+  }
+  @media screen and (max-width: 1000px) {
+    &__image {
+      width: 60%;
+    } 
+  }
+}
