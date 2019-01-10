@@ -53,3 +53,8 @@
     margin-bottom: 1rem;
   }
 }
+@media screen and (max-width: 446px) {
+  .display-2 {
+    font-size: $display2-size - 4rem;
+  }
+}
