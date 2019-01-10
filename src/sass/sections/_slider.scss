@@ -19,3 +19,37 @@
     }
   }
 }
+
+@media screen and (max-width: 1376px) {
+  .display-2 {
+    font-size: $display2-size - 1rem;
+  }
+  .display-4 {
+    font-size: $display4-size - 1rem;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .display-2 {
+    font-size: $display2-size - 2rem;
+  }
+  .display-4 {
+    font-size: $display4-size - 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .display-2 {
+    font-size: $display2-size - 3rem;
+  }
+  .display-4 {
+    font-size: $display4-size - 2.5rem;
+  }
+}
+@media screen and (max-width: 578px) {
+  .display-2 {
+    font-size: $display2-size - 3.5rem;
+  }
+  .carousel-indicators {
+    margin-bottom: 1rem;
+  }
+}
