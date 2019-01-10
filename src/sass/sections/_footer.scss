@@ -1,0 +1,19 @@
+.subscribe {
+  border-bottom: 1px solid #999;
+
+  &__input {
+    color: #999;
+    font-size: calculateRem(14px);
+  }
+  &__button {
+    font-size: calculateRem(14px);
+    color: #fff;
+    letter-spacing: 2.8px;
+
+    &-image {
+      width: 24px;
+      height: 12px;
+      margin-left: 1rem;
+    }
+  }
+}

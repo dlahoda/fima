@@ -12,8 +12,17 @@
 @import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/type";
 @import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/input-group";
+
+// Font awesome customization
+@import "font-awesome-customization";
+
+// Font awesome
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 // Styles
 @import "sections/header";
 @import "sections/slider";
 @import "sections/products";
+@import "sections/footer";
